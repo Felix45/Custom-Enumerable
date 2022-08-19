@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require './enumerable'
 
 class MyList
@@ -11,7 +13,7 @@ class MyList
   end
 end
 
-list = MyList.new(1,2,3,4,5,6)
+list = MyList.new(1, 2, 3, 4, 5, 6)
 puts(list.all? { |e| e < 7 })
 puts(list.all? { |e| e > 5 })
 
